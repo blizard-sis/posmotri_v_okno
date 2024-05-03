@@ -36,3 +36,36 @@ ul,
 ol {
   list-style: none;
 }
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+  width: 100%;
+  padding: 0 30px;
+}
+
+.search-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.content__list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.content__details {
+  flex-grow: 1;
+  padding: 20px;
+  height: 100%;
+}
