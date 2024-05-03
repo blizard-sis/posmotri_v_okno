@@ -211,14 +211,18 @@ input::placeholder {
 }
 
 .content__card-link {
+  display: block;
   color: #fff;
   text-decoration: none;
+  margin: 2px;
 }
 
 .content__card-link:hover {
   text-decoration: underline;
 }
-
+.content__card-link_current {
+  background-color:  rgba(255, 255, 255, 0.3);
+}
 .content__video-card {
   display: flex;
   width: 100%;
