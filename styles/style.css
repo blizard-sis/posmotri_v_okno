@@ -135,7 +135,7 @@ ol {
 .search-form__checkbox-list {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 15px;
 }
 
 .search-form__label-text:hover {
