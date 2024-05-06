@@ -271,6 +271,9 @@ ol {
 .content__details {
   align-self: start;
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
   height: 100%;
 }
 
@@ -279,7 +282,6 @@ ol {
   font-size: 75px;
   font-weight: 700;
   line-height: 70.5px;
-  text-align: left;
   text-transform: uppercase;
 }
 
