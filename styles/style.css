@@ -16,6 +16,10 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 h1,
@@ -47,13 +51,6 @@ ol {
   white-space: nowrap;
 }
 
-.page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
 .content {
   display: flex;
   align-items: flex-end;
@@ -71,8 +68,8 @@ ol {
 .result__video-container .result__video {
   width: 100%;
   height: 100%;
-  object-fit: fill;
-
+  object-fit: cover;
+  object-position: center;
 }
 
 .result__video-container, .content__list {
@@ -83,14 +80,11 @@ ol {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  width: 711px;
   gap: 40px;
 }
 
 .search-form__fieldset{
   border: none;
-  width: 225px;
-  height: 54px;
 }
 
 .search-form__fieldset-title{
