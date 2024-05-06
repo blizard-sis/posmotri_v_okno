@@ -99,19 +99,24 @@ ol {
   flex-direction: row;
 }
 
-.search-form__label:has(:focus-visible) {
-  border: 1px solid #fff;
-} 
-
 .search-form__textfield {
   appearance: none;
-  border-top: 1px solid #fff;
+  border: none;
   border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  height: 27px;
+  width: 225px;
   background-color: transparent;
   color: inherit;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
+}
+
+.search-form__textfield:focus {
+  border: none;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
 }
 
 .search-form__textfield::placeholder {
